@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+
+$text-color:                       gray;
+$body-bg:                          green;
+$font-family-sans-serif:           'Arial', sans-serif;
+$navbar-height:                    45px;
+$navbar-default-bg:                black;
+$navbar-default-brand-color:       white;
+$navbar-default-link-color: 	   white;
+$jumbotron-bg:                     white;
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
