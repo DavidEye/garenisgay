@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
 
-$text-color:                       gray;
-$body-bg:                          green;
+$text-color:                       black;
+$body-bg:                          #328d54;
 $font-family-sans-serif:           'Arial', sans-serif;
-$navbar-height:                    45px;
-$navbar-default-bg:                black;
-$navbar-default-brand-color:       white;
-$navbar-default-link-color: 	   white;
+$navbar-height:                    40px;
+$navbar-default-bg:                white;
+$navbar-default-brand-color:       black;
+$navbar-default-link-color: 	   black;
 $jumbotron-bg:                     white;
 
 @import 'bootstrap-sprockets';
