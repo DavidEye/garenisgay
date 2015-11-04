@@ -1,13 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
+// $body-bg:						   #85e3fd;
+// $background-image:				   url("public/images/background/rb.jpg");
 $text-color:                       black;
-$body-bg:                          #328d54;
-$font-family-sans-serif:           'Arial', sans-serif;
-$navbar-height:                    40px;
+$font-family-sans-serif:           'Indie Flower', cursive;
+$navbar-height:                    50px;
 $navbar-default-bg:                white;
 $navbar-default-brand-color:       black;
 $navbar-default-link-color: 	   black;
 $jumbotron-bg:                     white;
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -19,5 +21,17 @@ $jumbotron-bg:                     white;
 
 .navbar-brand {
      font-weight: bold;
+     font-size: 30px;
 }
 
+.navbar .nav{
+	font-size: 20px;
+}
+
+.p {
+	font-size: 15px;
+}
+
+.hero-unit.fullscreen-image-bg {
+  background-image: url('rb.jpg');
+}
